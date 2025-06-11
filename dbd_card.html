@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DBD Profile Card</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #eee;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      background-color: #111;
+      border: 2px solid #444;
+      padding: 40px;
+      border-radius: 10px;
+      width: 500px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+    }
+    .card h1 {
+      text-align: center;
+      color: #fff;
+      margin-bottom: 20px;
+      position: relative;
+    }
+    .card h1::before,
+    .card h1::after {
+      content: "\1F4A7";
+      margin: 0 10px;
+    }
+    .field {
+      margin: 12px 0;
+      font-size: 1.1rem;
+    }
+    .label {
+      font-weight: bold;
+      color: #ccc;
+    }
+    .about {
+      margin-top: 20px;
+      font-style: italic;
+      color: #ccc;
+      border-top: 1px solid #444;
+      padding-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>DBD PROFILE CARD</h1>
+    <div class="field"><span class="label">Username:</span> ghostbuster_tanaka</div>
+    <div class="field"><span class="label">Platform:</span> Steam</div>
+    <div class="field"><span class="label">Playtime:</span> 23:00–3:00 JST</div>
+    <div class="field"><span class="label">VC:</span> Discord</div>
+    <div class="field"><span class="label">Main Survivor:</span> Jane Romero</div>
+    <div class="field"><span class="label">Main Killer:</span> Ghostface</div>
+    <div class="field"><span class="label">Playstyle:</span> Casual</div>
+    <div class="about">キラー専です！仲良くなって一緒に遊べる方ぜひ〜</div>
+  </div>
+</body>
+</html>
